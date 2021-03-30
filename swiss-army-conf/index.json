@@ -1,0 +1,31 @@
+{
+  "title": "Swiss-Army-Conf",
+  "description": "Written in Python, this tool offers those monitoring a network device with 3 avenues for viewing device configuration: NETCONF, RESTCONF and SSH.",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Installation",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Getting Started",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python:3.7"
+  }
+}

@@ -1,0 +1,1 @@
+[ -d ~/network-automation-demo ] && echo "done"

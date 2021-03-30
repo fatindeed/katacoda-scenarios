@@ -1,0 +1,1 @@
+Script that iterates over a list of network devices (i.e switches, routers) specified on a CSV file and generates a report of their port status (Interface name, description, IP address and Administrative status). It does this using the RESTCONF Protocol.

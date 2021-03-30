@@ -1,0 +1,1 @@
+[ -d ~/Cisco-IOS-XE-config-to-Git ] && echo "done"

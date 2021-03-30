@@ -1,0 +1,31 @@
+{
+  "title": "Port Audit",
+  "description": "Script that iterates over a list of network devices (i.e switches, routers) specified on a CSV file and generates a report of their port status.",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Installation",
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
+      },
+      {
+        "title": "Getting Started",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python:3.7"
+  }
+}
